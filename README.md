@@ -4,7 +4,7 @@ Visual Studio sur Windows est le seul environnement qui sera supporté en INF101
 
 Noter que Visual Studio sur macOS ne supportait pas le C++ et est maintenant discontinué de toute façon.
 
-## Windows [ Niveau: <span style="color:green">Facile </span>]
+## Windows [ Niveau: <span style="color:green">Très facile </span>]
 
 L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. C'est d'ailleurs Visual Studio qui est installé dans les laboratoires informatiques et qui sera disponible lors des examens.
 
@@ -17,7 +17,7 @@ L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. 
    Il est aussi possible de modifier la langue de Visual Studio dans l'onglet `Modules linguistiques`
    ![alt text](captures/vs-langues.png)
 
-## Windows / macOS / Linux / [ Niveau: <span style="color:gold">Moyen </span>]
+## Windows / macOS / Linux / [ Niveau: <span style="color:LightGreen">Facile </span>]
 
 Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fournie par les mêmes développeurs de PyCharm. CLion s'occupe de la configuration de CMake pour nous. D'ailleurs, CLion offre un débogeur intéressant. Cette option nécessite de se familiariser tranquilement avec CMake.
 
@@ -26,3 +26,11 @@ Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fo
 3. Configurer CLion avec le tutoriel officiel
    - [macOs](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-macos.html)
    - [Windows](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html)
+
+## Windows / macOS / Linux / [ Niveau: <span style="color:gold">Intermédiaire </span>]
+
+VsCode fournit des outils pour compiler votre code C++. [Ce lien explique comment faire pour les différentes plateformes](https://code.visualstudio.com/docs/languages/cpp).
+
+## Windows / macOS / Linux / [ Niveau: <span style="color:crimson">Difficile </span>]
+
+Si vous ne voulez pas utiliser d'IDE ni VsCode, vous pouvez compiler le tout en ligne de commande et s'aider avec CMake (ou un Makefile). Un CMakeLists est généralement fourni avec les TD.
