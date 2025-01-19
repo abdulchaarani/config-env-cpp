@@ -12,10 +12,10 @@ L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. 
 2. Obtenir une license pour Visual Studio Enterprise 2022. [Ce lien liste les étapes à suivre](https://www.polymtl.ca/gigl/obtention-des-produits-microsoft).
 3. [Suivre la procédure d'installation officielle](https://www.polymtl.ca/gigl/procedure-dinstallation-de-visual-studio-2019).\*
 
-   \* À l'étape de la sélection des `Charge de travail`, la seule option importante à sélectionner est `Développement Desktop en C++` (voir capture) Ceci permettra de minimiser la taille de l'application. Vous pouvez choisir d'autres options selon vos besoins. Il est possible de les rajouter dans un 2e temps en relançant l'installateur![alt text](captures/vs-charges.png)
+   \* À l'étape de la sélection des `Charge de travail`, la seule option importante à sélectionner est `Développement Desktop en C++` (voir capture) Ceci permettra de minimiser la taille de l'application. Vous pouvez choisir d'autres options selon vos besoins. Il est possible de les rajouter dans un 2e temps en relançant l'installateur![Liste de charges à cocher](captures/vs-charges.png)
 
    Il est aussi possible de modifier la langue de Visual Studio dans l'onglet `Modules linguistiques`
-   ![alt text](captures/vs-langues.png)
+   ![Langues disponibles sur Visual Studio](captures/vs-langues.png)
 
 ## Windows / macOS / Linux / [ Niveau: <span style="color:LightGreen">Facile </span>]
 
@@ -30,6 +30,11 @@ Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fo
 ## Windows / macOS / Linux / [ Niveau: <span style="color:gold">Intermédiaire </span>]
 
 VsCode fournit des outils pour compiler votre code C++. [Ce lien explique comment faire pour les différentes plateformes](https://code.visualstudio.com/docs/languages/cpp).
+
+Pour macOS, il faudra activer l'optioin `Full Disk Access` pour le terminal pour utiliser VsCode dans
+`System Preferences -> Security & Privacy -> Privacy` (voir capture). Vous pouvez également utiliser [cette configuration](/.vscode/tasks.json) pour le 1er TD. Une configuration pour les prochains TD est à venir.
+
+![Full Disk Access sur macOs](captures/vscode-fda.png)
 
 ## Windows / macOS / Linux / [ Niveau: <span style="color:crimson">Difficile </span>]
 
