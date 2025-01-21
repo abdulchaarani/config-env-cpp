@@ -31,10 +31,21 @@ Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fo
 
 VsCode fournit des outils pour compiler votre code C++. [Ce lien explique comment faire pour les différentes plateformes](https://code.visualstudio.com/docs/languages/cpp).
 
-Pour macOS, il faudra activer l'optioin `Full Disk Access` pour le terminal pour utiliser VsCode dans
-`System Preferences -> Security & Privacy -> Privacy` (voir capture). Vous pouvez également utiliser [cette configuration](/.vscode/tasks.json) pour le 1er TD. Une configuration pour les prochains TD est à venir.
+Ce repo contient [une configuration](/.vscode/) pour **macOS** le 1er TD. Une configuration pour les prochains TD est à venir. Il faut placer le dossier `.vscode` dans le répertoire parent de votre TD. S'il y a déjà un dossier `.vscode`, **LE REMPLACER**.
+
+#### macOS
+
+Ensuite, pour macOS, il faudra activer l'option `Full Disk Access` pour le terminal pour utiliser VsCode dans
+`System Preferences -> Security & Privacy -> Privacy` (voir capture). 
 
 ![Full Disk Access sur macOs](captures/vscode-fda.png)
+
+De plus, pour déboger avec VsCode, il faut donner l'accès au Terminal de débogage. Ainsi, dans la barre d'option du dessus, faire `Terminal -> Run Task... -> Open Terminal` et accorder les permissions. Note: il se peut que vous devez faire apparaitre toutes les taches avec `Show All Tasks`.
+
+![Run Task sur macOs](captures/vscode-run-task.png)
+![Permissions Terminal macOs](captures/vscode-terminal.png)
+
+Ce repo contient un projet de départ pour tester votre configuration sur macOS.
 
 ## Windows / macOS / Linux / [ Niveau: <span style="color:crimson">Difficile </span>]
 
