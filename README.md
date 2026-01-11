@@ -4,10 +4,17 @@ Visual Studio sur Windows est le seul environnement qui sera supporté en INF101
 
 Noter que Visual Studio sur macOS ne supportait pas le C++ et est maintenant discontinué de toute façon.
 
-## Visual Studio sur Windows [ Niveau: <span style="color:green">Très facile </span>]
+## Options disponibles
+
+- [Visual Studio sur Windows](#Visual-Studio-pour-Windows) 🪟⭐
+- [CLion et CMake sur Windows, macOS ou Linux](#CLion-et-CMake-sur-Windows-macOS-ou-Linux) 🍎
+- [CMake sur Windows, macOS ou Linux](#CMake-sur-Windows-macOS-ou-Linux) 🐧
+- [VsCode sur Windows, macOS ou Linux](#VsCode-sur-Windows-macOS-ou-Linux)
+
+## Visual Studio pour Windows
 
 > [!Note]
-> Cette option est à prévilégier pour tous les utilsateurs Windows qui préfèrent avoir un environnement de développement complet (IDE). Le développement C++ sur Visual Studio n'est pas disponible sur Mac ni Linux.
+> ⭐ Cette option est à **prévilégier** pour tous les utilsateurs Windows qui préfèrent avoir un environnement de développement complet (IDE). Le développement C++ sur Visual Studio n'est pas disponible sur Mac ni Linux.
 
 L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. C'est d'ailleurs Visual Studio qui est installé dans les laboratoires informatiques et qui sera disponible lors des examens.
 
@@ -25,10 +32,10 @@ L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. 
 > [!Note]
 > Je vous conseille de décocher l'installation de GitHub Copilot pour une meilleure expérience académique.
 
-## CMake et CLion sur Windows / macOS / Linux / [ Niveau: <span style="color:gold">Intermédiaire </span>]
+## CLion et CMake sur Windows, macOS ou Linux
 
 > [!Note]
-> Cette option est à prévilégier pour tous les utilsateurs de MacOs et qui préfèrent avoir un environnement de développement complet (IDE). Cette option est également possible sur Windows et Linux selon les préférences.
+> 🍎 Cette option est à prévilégier pour tous les utilsateurs de MacOs et qui préfèrent avoir un environnement de développement complet (IDE). Cette option est également possible sur Windows et Linux selon les préférences.
 
 Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fournie par les mêmes développeurs de PyCharm. CLion s'occupe de la configuration de CMake pour nous. D'ailleurs, CLion offre un débogeur intéressant. Cette option nécessite de se familiariser tranquilement avec CMake.
 
@@ -41,10 +48,10 @@ Il est possible d'utiliser CLion de Jetbrains comme IDE. Cette plateforme est fo
 > [!Important]
 > La configuration d'un projet CLion se fait avec CMake, mais CLion automatise la configuration, ce qui évite de devoir execéuter des lignes de commandes. Il faudra néanmoins utiliser le fichier CMakeLists.txt fourni avec chaque TD. Lire la section su CMake plus bas pour plus d'information.
 
-## CMake sur Windows / macOS / Linux / [ Niveau: <span style="color:crimson">Avancé </span>]
+## CMake sur Windows, macOS ou Linux
 
 > [!Caution]
-> Cette demande plus d'opérations manuelles et est résevée aux utilisateurs qui sont plus confortable avec l'exécution en ligne de commande. CMake est le système de build recommandé pour les utilisateurs qui ne préfèrent pas avoir une environnement de développement complet (IDE), (ex. Vim, VsCode, Notepad++, etc.)
+> 🐧 Cette option demande plus d'opérations manuelles et est résevée aux utilisateurs qui sont plus confortables avec l'exécution en ligne de commande, ou les utilsateurs linux. CMake est le système de build recommandé pour les utilisateurs qui ne préfèrent pas avoir une environnement de développement complet (IDE), (ex. Vim, VsCode, Notepad++, etc.)
 
 Si vous ne voulez pas utiliser d'IDE, vous pouvez compiler le tout en ligne de commande et s'aider avec CMake (ou d'un Makefile). Un fichier `CMakeLists.txt` est généralement fourni avec les TD.
 
@@ -77,7 +84,7 @@ make
 > [!TIP]
 > Vous pouvez créer votre propre Makefile et y ajouter ces commandes pour éviter toujours devoir les copier/coller!
 
-## VsCode sur Windows / macOS / Linux / [ Niveau: <span style="color:red">Avancé </span>]
+## VsCode sur Windows, macOS ou Linux
 
 > [!Caution]
 > Cette méthode n'est pas recommandée et demande plus de configuration manuelle.
