@@ -29,7 +29,7 @@ L'option recommendée sur Windows est d'utiliser Visual Studio Enterprise 2022. 
 > [!TIP]
 > Il est aussi possible de modifier la langue de Visual Studio dans l'onglet `Modules linguistiques` > ![Langues disponibles sur Visual Studio](captures/vs-langues.png)
 
-> [!Note]
+> [!WARNING]
 > Je vous conseille de décocher l'installation de GitHub Copilot pour une meilleure expérience académique.
 
 ## CLion et CMake sur Windows, macOS ou Linux
